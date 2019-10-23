@@ -81,7 +81,95 @@
             </div>
         </div>
     </section>
-    <!-- about section -->
+    <!-- end of about section -->
+
+
+    <!-- service section -->
+    <section>
+        <div class="service-section">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="global-heading">
+                            <h1>Services</h1>
+                            <p>What services I provide</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row text-center service-crousel">
+                    <div class="col-lg-4">
+                        <div class="service">
+                            <div class="box-shadow">
+                                <div class="weeding">
+                                    <i class="flaticon-respect"></i>
+                                    <h3>Wedding Photography</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quaerat quos officiis minus repellendus est.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service">
+                            <div class="box-shadow">
+                                <div class="commercial">
+                                    <i class="flaticon-idea"></i>
+                                    <h3>Commercial Photography</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quaerat quos officiis minus repellendus est.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service">
+                            <div class="box-shadow">
+                                <div class="event">
+                                    <i class="flaticon-balloons"></i>
+                                    <h3>Event Photography</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quaerat quos officiis minus repellendus est.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service">
+                            <div class="box-shadow">
+                                <div class="weeding">
+                                    <i class="flaticon-respect"></i>
+                                    <h3>Wedding Photography</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quaerat quos officiis minus repellendus est.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service">
+                            <div class="box-shadow">
+                                <div class="commercial">
+                                    <i class="flaticon-idea"></i>
+                                    <h3>Commercial Photography</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quaerat quos officiis minus repellendus est.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service">
+                            <div class="box-shadow">
+                                <div class="event">
+                                    <i class="flaticon-balloons"></i>
+                                    <h3>Event Photography</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quaerat quos officiis minus repellendus est.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of service section -->
 
     <!-- scripting integrate -->
     <script
@@ -90,12 +178,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/slick.min.js"></script>
 
     <script>
         new WOW().init();
     </script>
-
     <script>
+
+        //for navbar
         let count = 0;
         $(document).ready(function(){
             $('.nav-button').click(function(){
@@ -112,7 +202,7 @@
                 }  
             });
         });
-
+        //nav add class
         $(window).on('scroll', function(){
             if($(window).scrollTop()){ 
                 $('nav').addClass('blackAgain');
@@ -122,6 +212,34 @@
             }
         });
 
+        //service slider
+        $('.service-crousel').slick({
+            slidesToShow: 3,
+            autoplay:true,
+            speed:500,
+            arrows:false,
+            responsive: [
+            {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3
+            }
+            },
+            {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2
+            }
+            },
+            {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1
+            }
+            }
+            
+        ]
+        }); 
         //preloader
 
         /* $(function() {
