@@ -450,6 +450,39 @@
     </section>
     
     <!-- portfolio section2-->
+        
+    <!-- count section-->
+    <section>
+        <div class="count-section">
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center  counter-parallax">
+                    <div class="col-lg-12 text-center">
+                        <div class="row"> 
+                            <div class="col-lg-4 my-4">
+                                <div class="count">
+                                    <span>shots</span>
+                                    <strong class="myCounter">23738</strong>
+                                </div>
+                            </div>                          
+                            <div class="col-lg-4 my-4">
+                                <div class="count">
+                                    <span>CLIENTS</span>
+                                    <strong class="myCounter">5</strong>
+                                </div>
+                            </div>                          
+                            <div class="col-lg-4 my-4">
+                                <div class="count">
+                                    <span>PROJECTS</span>
+                                    <strong class="myCounter">7</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- count section-->
 
     <!-- scripting integrate -->
     <script
@@ -461,6 +494,8 @@
     <script src="js/wow.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script> 
 
     <script>
 
@@ -631,6 +666,13 @@
         $('.portfolio-section-2 .row  div:nth-child(13) img').simpleParallax({
         'orientation': 'left',
         'scale':'1.1'
+        });
+
+        //counter
+        $('.myCounter').countUp({
+        'time': 2000,
+        'delay': 10
+
         });
  
         //preloader

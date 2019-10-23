@@ -904,7 +904,7 @@ margin-top: 10px;
   position: relative;
   /* The image used */
   
-  background: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,.4)),to(rgba(0,0,0,.5))), url(../../images/banner.jpg) no-repeat center center;
+  background: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,.4)),to(rgba(0,0,0,.5))), url(../../images/bak.jpg) no-repeat center center;
   background: -o-linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url(../../images/bak.jpg) no-repeat center center;
   background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url(../../images/bak.jpg) no-repeat center center;
   
@@ -1162,6 +1162,60 @@ text-transform: uppercase;
   -moz-transition:all 0.4s ease-in;
   -o-transition:  all 0.4s ease-in;
 }
+
+/**********************************
+
+***     counter section       ***
+
+**********************************/
+
+/* counter parllax */
+
+.counter-parallax {
+  /* The image used */
+  
+  background: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,.4)),to(rgba(0,0,0,.5))), url(../../images/q.jpg) no-repeat center center;
+  background: -o-linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url(../../images/q.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url(../../images/q.jpg) no-repeat center center;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+  /* Full height */
+  height: 300px;
+}
+
+
+/* counter section */
+
+.count-section{
+  overflow: -moz-hidden-unscrollable;
+}
+
+.count{
+text-align: center;
+vertical-align: middle;
+}
+.count span{  
+display: block;  
+font-size: 22px;  
+font-weight: 600; 
+text-transform: uppercase;
+color: #fff;
+text-align: inherit;
+}
+.count strong{
+  font-size: 50px;
+  color: #FFDD00;
+  font-weight: 700;
+}
+
 
 /**********************************
 
