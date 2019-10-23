@@ -1302,8 +1302,6 @@ font-size: 14px;
 ***      footer section       ***
 
 **********************************/
-
-
   
 .section-footer{
 
@@ -1312,11 +1310,9 @@ font-size: 14px;
   padding: 100px 0px;
   }
   
-  .widget{
-  }
   .widget h4{
       font-size: 1.5rem;
-      color: #fff;
+      color: rgba(255, 255, 255, 0.952);
       margin-bottom: 30px;
       text-transform: uppercase;
   }
@@ -1357,8 +1353,6 @@ font-size: 14px;
       color: #6fbbf7;
   }
   
-  .footer-social ul{
-  }
   .footer-social li{
       list-style: none;
       display: inline-block;
