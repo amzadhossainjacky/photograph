@@ -974,6 +974,10 @@ margin-top: 10px;
   z-index: 0
 }
 
+/* gallery1  1 design*/
+.extra-gallery1 span:before{
+  left: 23px;
+}
 
 .portfolio-section{
   padding: 100px 0px;
@@ -1414,7 +1418,7 @@ font-size: 14px;
 }
 
 
-.b{
+.loader{
   position: relative;
   display: none;
 }
@@ -1426,7 +1430,7 @@ font-size: 14px;
   -webkit-transform:translate(-50%, -50%);
       -ms-transform:translate(-50%, -50%);
           transform:translate(-50%, -50%);
-  z-index: 300000;
+  z-index: 11000;
 }
 
 
