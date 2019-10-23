@@ -1274,6 +1274,22 @@ font-size: 14px;
 
 
 
+/**********************************
+
+***      instagram section       ***
+
+**********************************/
+
+.instagram-section{
+  background: #F7F8FC;
+  padding-top: 100px;
+}
+.instagram-section h4{
+  margin-bottom: 60px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #222;
+}
 
 /**********************************
 
