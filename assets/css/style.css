@@ -890,6 +890,50 @@ margin-top: 10px;
 }
 
 
+
+/**********************************
+
+***     Quote section       ***
+
+**********************************/
+.quote-section{
+  overflow: -moz-hidden-unscrollable;
+}
+.parallax {
+  position: relative;
+  /* The image used */
+  background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url(../../images/bak.jpg);
+
+  /* Full height */
+  height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.quote-img-content{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  z-index: 4;
+  font-size: 30px;
+}
+.quote-img-content span{
+  display: block;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.quote-img-content p{
+  font-size: 30px;
+}
+
+
 /**********************************
 
 ***        blog section      ***
