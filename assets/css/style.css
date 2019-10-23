@@ -1237,22 +1237,15 @@ text-transform: uppercase;
 margin-bottom: 30px;
 }
 
-.contact-section .form-control{
-  
-box-shadow: 0 0 0 0;
-  
-transition: none;
-  
-padding: 22px 20px;
-  
-border-radius: 0rem !important;
-  
-background: white;
-  
+.contact-section .form-control{  
+box-shadow: 0 0 0 0;  
+transition: none;  
+padding: 22px 20px;  
+border-radius: 0rem !important;  
+background: white;  
 border: 1px solid #f0f0f0;
 }
-.contact-info{
-}
+
 .contact-info p{
   padding: 30px;
   background: white;
@@ -1279,6 +1272,23 @@ color: #495057;
 font-size: 14px;
 }
 
+
+
+/**********************************
+
+***      instagram section       ***
+
+**********************************/
+
+.instagram-section{
+  background: #F7F8FC;
+  padding-top: 100px;
+}
+.instagram-section h4{
+  margin-bottom: 60px;
+  font-size: 48px;
+  text-transform: uppercase;
+}
 
 /**********************************
 
