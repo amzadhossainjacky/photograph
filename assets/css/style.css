@@ -368,6 +368,7 @@ img {
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  vertical-align: middle;
 }
 /* --- links --------------------- */
 a,
@@ -902,16 +903,22 @@ margin-top: 10px;
 .parallax {
   position: relative;
   /* The image used */
-  background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url(../../images/bak.jpg);
+  
+  background: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,.4)),to(rgba(0,0,0,.5))), url(../../images/banner.jpg) no-repeat center center;
+  background: -o-linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url(../../images/bak.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url(../../images/bak.jpg) no-repeat center center;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
   /* Full height */
   height: 400px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 
