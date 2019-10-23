@@ -1223,6 +1223,62 @@ text-align: inherit;
 
 **********************************/
 
+.contact-section{
+  padding: 100px 0px;
+  background: #795dca1c;
+}
+
+.contact-section h5{
+
+font-size: 22px;
+
+text-transform: uppercase;
+
+margin-bottom: 30px;
+}
+
+.contact-section .form-control{
+  
+box-shadow: 0 0 0 0;
+  
+transition: none;
+  
+padding: 22px 20px;
+  
+border-radius: 0rem !important;
+  
+background: white;
+  
+border: 1px solid #f0f0f0;
+}
+.contact-info{
+}
+.contact-info p{
+  padding: 30px;
+  background: white;
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+}
+.contact-info i{
+  margin-right: 5px;
+  color: #FFDD00;
+}
+.contact-info a{
+  text-decoration: none;
+  color: gray;
+}
+
+.contact-btn{
+display: block;
+background: #FFDD00;
+padding: 5px 10px; 
+border: 5px solid #FFDD00; 
+margin-top: 15px;
+color: #495057;
+font-size: 14px;
+}
+
 
 /**********************************
 
