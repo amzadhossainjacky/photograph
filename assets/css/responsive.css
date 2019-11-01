@@ -77,7 +77,7 @@
       }
 
       .angle-down{
-  
+
         height: 35px;   
         width: 30px;     
         line-height: 30px;   
@@ -123,8 +123,6 @@
       font-size: 17px;
     }
 
-
-    
 }
 
 @media screen and (max-width: 440px) {
@@ -155,7 +153,6 @@
 
       /* footer */
 
-      
       .widget h4 {
         font-size: 1.2rem;
       }
