@@ -473,12 +473,14 @@ hr,
   -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+  position: relative;
 }
 
 
 .heading{
-  position: absolute;
-  width: 80%;   
+  width: 80%;
+  overflow: hidden;
+  position: absolute; 
   top: 50%;
   left: 50%; 
   -webkit-transform: translate(-50%,-50%); 
@@ -491,6 +493,8 @@ hr,
 } 
 
 .heading h1{
+  
+  display: inline-block;
   font-size: 45px;
   color: #FFDD00;
   text-transform: capitalize;
@@ -594,7 +598,7 @@ color: #7F8D9F !important;
 
 .logo i{
   color: #fff;
-  margin: 2px;
+  margin: 0px !important;
   display: block;
 
   -webkit-animation-name: zoomIn;
@@ -665,7 +669,7 @@ color: #7F8D9F !important;
 }
 
 .black{
-  background: rgba(0,0,0,.4);   
+  background: rgba(0,0,0,.4);  
 }
 .blackAgain{
   background: rgba(0,0,0,.4);   
