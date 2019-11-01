@@ -58,6 +58,8 @@
           margin-bottom: 15px !important;
         }
 
+        
+
 
 }
 
@@ -99,13 +101,15 @@
               opacity: 0;
             }
           }
-
-          
-        /* footer */
-        .section-footer{   
-          padding: 60px 0px;
-        }
-                
+                 
+      /* footer */
+      .section-footer{   
+        padding: 60px 0px;
+      }
+        
+      .widget{
+        text-align: center;
+      }
       .widget h4 {
         font-size: 1.2rem;
         margin-bottom: 10px !important;
