@@ -15,10 +15,13 @@
     <link rel="stylesheet" media="screen" href="assets/css/responsive.css">
 </head>
 
-<body>
+<body onload="myFunction()"><!-- 
     <div class="preload">
         <img src="images/loading_spinner.gif" />
-    </div>
+    </div> -->
+
+    
+    <div id="loading"></div>
     
     <!-- header -->
     <header class="header-section loader">
@@ -646,11 +649,10 @@
     <script src="js/wow.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.countup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script> 
+    <script src="js/jquery.countup.min.js"></script>
 
     <script>
-
         //for navbar
         let count = 0;
         $(document).ready(function(){
@@ -819,22 +821,27 @@
         'orientation': 'left',
         'scale':'1.1'
         });
-
-        //counter
-        $('.myCounter').countUp({
-        'time': 2000,
-        'delay': 10
-
-        });
  
         //preloader
-
+        /*                 
         $(function() {
 		$(".preload").fadeOut(2500, function() {
 			$(".loader").fadeIn(1000);
 		});
-	    });  
-        new WOW().init();
+        });   */
+        
+        //counter
+        $('.myCounter').countUp({
+        'time': 2000,
+        'delay': 10
+        });
+
+        var preloader = document.getElementById('loading');
+        function myFunction(){
+                setTimeout(() => {
+                     preloader.style.display ='none';
+                }, 3000);
+        }
     </script>
 
 </body>
