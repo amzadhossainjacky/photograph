@@ -464,6 +464,7 @@ hr,
 
 **********************************/
 
+
 .header-section{
   height: 100vh;
   background: -o-linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url(../../images/banner.jpg) no-repeat center center;
@@ -473,13 +474,10 @@ hr,
   -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-  position: relative;
+  
 }
 
-
 .heading{
-  width: 80%;
-  overflow: hidden;
   position: absolute; 
   top: 50%;
   left: 50%; 
@@ -490,6 +488,7 @@ hr,
   color: #fff;
   padding: 0px;
   margin-top: 50px;
+  display: block;
 } 
 
 .heading h1{
@@ -596,7 +595,7 @@ color: #7F8D9F !important;
 
 **********************************/
 
-.logo i{
+.logo1 i{
   color: #fff;
   margin: 0px !important;
   display: block;
