@@ -8,8 +8,12 @@
   .counter-parallax{
     height: 540px;
   }
-  
-}
+
+  /* contact */
+
+  .contact-btn {
+    margin-bottom: 40px;
+  }
 
 
 @media screen and (max-width: 767px){
@@ -34,8 +38,24 @@
         border-radius: 10px;    
         margin-top: 35px;   
         }
-    
 
+        /* contact */
+        .contact-section {
+          padding: 60px 0px;
+        }
+
+        .global-heading p {
+        margin-bottom: 30px;
+        }
+        
+        /*intsgram */
+        .instagram-section{
+          padding-top: 60px;
+        }
+
+        .instagram-section h4{
+          margin-bottom: 30px;
+        }
         /* footer */
         .widget{
           margin-top: 30px !important;
@@ -85,20 +105,23 @@
         .heading i{
             font-size: 12px;
           }
+      
+      /* contact */
 
-          @keyframes animLeft{
-            0%{
-              transform: translateX(-40px);
-            }
-          }
+      .global-heading p {
+      font-size: 30px;
+      margin-bottom: 30px;
+      }
+
+      .contact-section h5 {
+        font-size: 18px;
+      }
           
-          @keyframes animRight{
-            0%{
-              transform: translateX(40px);
-              opacity: 0;
-            }
-          }
-                 
+      /*instagram */
+      .instagram-section h4{
+        font-size: 30px;
+      }     
+
       /* footer */
       .section-footer{   
         padding: 60px 0px;
@@ -118,6 +141,19 @@
 
     .footer-social i{
       font-size: 17px;
+    }
+
+    @keyframes animLeft{
+      0%{
+        transform: translateX(-40px);
+      }
+    }
+    
+    @keyframes animRight{
+      0%{
+        transform: translateX(40px);
+        opacity: 0;
+      }
     }
 
 }
