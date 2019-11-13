@@ -6,19 +6,18 @@
 @media(max-width: 991px){
   
   .counter-parallax{
-    height: 540px;
+    height: 350px;
   }
 
   /* contact */
-
   .contact-btn {
     margin-bottom: 40px;
   }
-
+}
 
 @media screen and (max-width: 767px){
-
-    .heading h1{
+  
+      .heading h1{
         font-size: 40px;
       }
       .heading span{
@@ -37,6 +36,22 @@
         line-height: 40px;   
         border-radius: 10px;    
         margin-top: 35px;   
+        }
+
+        /*portfolio-section*/
+
+        .portfolio-section {
+          padding: 60px 0px;
+        }
+        
+
+        /*counter*/
+        .counter-parallax{
+          height: 300px;
+        }
+
+        .count strong {
+          font-size: 40px;
         }
 
         /* contact */
@@ -64,7 +79,6 @@
           
           margin-bottom: 15px !important;
         }
-
         
         @keyframes animLeft{
           0%{
@@ -78,9 +92,9 @@
             opacity: 0;
           }
         }
-}
+    }
 
-@media screen and (max-width: 575.98px) {
+@media screen and (max-width: 575.98px){
    
     .heading h1{
         font-size: 35px;
@@ -105,7 +119,26 @@
         .heading i{
             font-size: 12px;
           }
-      
+
+        /*portfolio*/
+        .portfolio-section .global-heading p {
+          margin-bottom: 10px;
+        }
+        .gallery-heading span {
+          font-size: 25px;
+        }
+      /*counter*/
+      .counter-parallax{
+        height: 450px;
+      }
+
+      .count strong {
+        font-size: 30px;
+      }
+
+      .count span {
+        font-size: 22px;
+      }
       /* contact */
 
       .global-heading p {
@@ -155,7 +188,6 @@
         opacity: 0;
       }
     }
-
 }
 
 @media screen and (max-width: 440px) {
@@ -171,6 +203,12 @@
         padding: 8px 16px;
       }
 
+      /* footer */
+
+      .widget h4 {
+        font-size: 1.2rem;
+      }
+
       @keyframes animLeft{
         0%{
           transform: translateX(-30px);
@@ -183,13 +221,7 @@
           opacity: 0;
         }
       }
-
-      /* footer */
-
-      .widget h4 {
-        font-size: 1.2rem;
-      }
-}
+  }
 
 
 /* 
