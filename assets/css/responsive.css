@@ -1,14 +1,37 @@
 @media screen and (max-width:1199px){
+  /*quote section*/
 
+  .quote-img-content {
+    font-size: 24px;
+  }
 }
 
 
 @media(max-width: 991px){
   
+  /*about section*/
+  .about-content {
+    padding-right: 0px;
+  }
+
+  .about-content h2 {
+    font-size: 26px;
+  }
+
+  .about-content strong {
+    font-size: 20px;
+  }
+  /*quote section*/
+  .parallax {
+    height: 350px;
+  }
+  .quote-img-content {
+    font-size: 22px;
+  }
+  /*counter parallax*/
   .counter-parallax{
     height: 350px;
   }
-
   /* contact */
   .contact-btn {
     margin-bottom: 40px;
@@ -16,9 +39,9 @@
 }
 
 @media screen and (max-width: 767px){
-  
-      .heading h1{
-        font-size: 40px;
+      
+      .global-heading p{
+        font-size: 35px;
       }
       .heading span{
         font-size: 22px;
@@ -36,6 +59,38 @@
         line-height: 40px;   
         border-radius: 10px;    
         margin-top: 35px;   
+        }
+
+        /*about section */
+        .about-section {
+          padding: 60px 0px;
+        }
+
+        .about-content strong {
+          font-size: 18px;
+        }
+        .about-content p {
+          font-size: 14px;
+        }
+        .about-content strong {
+          padding: 10px;
+        }
+
+        /*service section*/
+        .service-section {
+          padding: 60px 0px;
+        }
+
+        /*quote section*/
+        .parallax {
+          height: 300px;
+        }
+        .quote-img-content {
+          font-size: 20px;
+        }
+
+        .quote-img-content span {
+          font-size: 16px;
         }
 
         /*portfolio-section*/
@@ -58,9 +113,8 @@
         .contact-section {
           padding: 60px 0px;
         }
-
-        .global-heading p {
-        margin-bottom: 30px;
+        .contact-section h5 {
+          font-size: 20px;
         }
         
         /*intsgram */
@@ -69,6 +123,7 @@
         }
 
         .instagram-section h4{
+          font-size: 35px;
           margin-bottom: 30px;
         }
         /* footer */
@@ -96,6 +151,9 @@
 
 @media screen and (max-width: 575.98px){
    
+      .global-heading p {
+      margin-bottom: 30px;
+      }
     .heading h1{
         font-size: 35px;
       }
@@ -119,6 +177,24 @@
         .heading i{
             font-size: 12px;
           }
+
+        /*about section */
+        .about-content strong {
+          font-size: 16px;
+        }
+
+        .about-content h2 {
+          font-size: 22px;
+       }
+        
+        /*quote section*/
+        .quote-img-content {
+          font-size: 18px;
+        }
+
+        .quote-img-content span {
+          font-size: 16px;
+        }
 
         /*portfolio*/
         .portfolio-section .global-heading p {
@@ -191,6 +267,10 @@
 }
 
 @media screen and (max-width: 440px) {
+
+    .global-heading p {
+    font-size: 25px;
+    }
     .heading h1{
         font-size: 28px;
       }
@@ -201,6 +281,11 @@
       .heading-button a{
         font-size: 12px;
         padding: 8px 16px;
+      }
+
+      /* instagram */
+      .instagram-section h4 {
+        font-size: 25px;
       }
 
       /* footer */
